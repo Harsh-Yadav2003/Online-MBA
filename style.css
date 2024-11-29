@@ -1,14 +1,15 @@
 /* --------------------------------------------------Universal slecter css--------------------------- */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 /* --------------------------------------------------Container fluid css----------------------------- */
 
-.container-fluid{
+.container-fluid {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,7 +19,7 @@
 
 /* --------------------------------------------------Class header css-------------------------------- */
 
-.header{
+.header {
     height: 80px;
     width: 100%;
     border-bottom: 1px solid black;
@@ -32,7 +33,7 @@
 
 /* --------------------------------------------------Header left child css--------------------------- */
 
-.leftheader{
+.leftheader {
     float: left;
     padding-top: 15px;
     margin-left: -150px;
@@ -40,7 +41,7 @@
 
 /* --------------------------------------------------enquire button css------------------------------ */
 
-.Enquire{
+.Enquire {
     width: 180px;
     height: 50px;
     background-color: rgb(18, 23, 74);
@@ -49,11 +50,12 @@
     text-align: center;
     padding: 8px;
     border-radius: 5px;
+    margin-top: -5px;
 }
 
 /* --------------------------------------------------button tag css----------------------------------- */
 
-button{
+button {
     text-decoration: none;
     outline: 0;
     border: none;
@@ -61,7 +63,7 @@ button{
 
 /* --------------------------------------------------Header right child css--------------------------- */
 
-.rightheader{
+.rightheader {
     float: right;
     padding-right: 20px;
     padding-top: 15px;
@@ -69,7 +71,7 @@ button{
 
 /* --------------------------------------------------Class first css---------------------------------- */
 
-.first{
+.first {
     display: flex;
     width: 100%;
     height: 100%;
@@ -79,25 +81,29 @@ button{
 
 /* --------------------------------------------------First left child css--------------------------- */
 
-.firstleft{
+.firstleft {
     width: auto;
+    height: 460px;
     float: left;
     margin-top: 20px;
     background-color: white;
     border-radius: 0px 65px 65px 0px;
     padding-left: 50px;
-    padding-top: 20px;
+    padding-top: 10px;
+    line-height: 15px;
 }
 
 /* --------------------------------------------------Grid image in first class css------------------- */
 
-#gridimg{
+#gridimg {
     padding-left: 40px;
 }
 
 /* --------------------------------------------------First right child css--------------------------- */
 
-.firstright{
+.firstright {
+    width: auto;
+    height: 700px;
     float: right;
     padding-top: 50px;
     margin-left: -76px;
@@ -106,14 +112,14 @@ button{
 
 /* --------------------------------------------------Image in first class css------------------------ */
 
-#newbanimg{
+#newbanimg {
     border-radius: 0px 60px 60px 0px;
     margin-top: -28px;
 }
 
 /* ------------------------------------------------Find best university box csss--------------------- */
 
-.findbestuniversity{
+.findbestuniversity {
     width: 200px;
     height: 50px;
     background-color: rgb(18, 23, 74);
@@ -129,208 +135,219 @@ button{
 
 /* --------------------------------------------------Class second css------------------------------- */
 
-.second{
+.second {
     padding-left: 20%;
 }
 
 /* --------------------------------------------------Class third css-------------------------------- */
 
-.third{
+.third {
     display: flex;
-    width: 85%;
+    width: 90%;
     height: 100%;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 40px;
-    margin-left: 120px;
+    margin-left: 5%;
     margin-bottom: 20px;
 }
 
 /* --------------------------------------------------All Box1 css---------------------------------- */
 
-.box1{
-    width: 380px;
-    height: 580px;
+.box1 {
+    width: 330px;
+    height: 480px;
     border-radius: 20px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     transition: all linear 400ms;
     cursor: pointer;
 }
 
-.box1:hover{
-    transform: scale(1.1,1.1);
+.box1:hover {
+    transform: scale(1.04, 1.04);
     box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.2);
 }
 
 /* --------------------------------------------------All image text css--------------------------- */
 
-.imgtxt1{
-    width: 380px;
-    height: 60px;
+.imgtxt1 {
+    width: 330px;
+    height: 50px;
     background-color: rgb(208, 195, 213);
     padding-top: 15px;
     font-weight: 630;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
 
-.imgtxt2{
-    width: 380px;
-    height: 90px;
+.imgtxt2 {
+    width: 330px;
+    height: 70px;
     background-color: rgb(208, 195, 213);
     padding-top: 14px;
     font-weight: 630;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
-.imgtxt3{
-    width: 380px;
-    height: 60px;
+
+.imgtxt3 {
+    width: 330px;
+    height: 50px;
     background-color: rgb(208, 195, 213);
     padding-top: 15px;
     font-weight: 630;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
 
 /* --------------------------------------------------All card id css------------------------------ */
 
-#card1{
+#card1 {
     float: left;
     padding-left: 60px;
-    padding-top: 30px;
+    padding-top: 20px;
     font-weight: 500;
+    font-size: 15px;
 }
-#card2{
+
+#card2 {
     float: right;
     font-weight: 500;
-    padding-top: 30px;
+    padding-top: 20px;
+    font-size: 15px;
     padding-right: 60px;
+    font-size: 15px;
 }
-#card3{
+
+#card3 {
     padding-left: 60px;
-    padding-top: 120px;
-    font-weight: 500; 
+    padding-top: 110px;
+    font-weight: 500;
+    font-size: 15px;
 }
-#card4{
+
+#card4 {
     float: right;
-    padding-left: 60px;
-    padding-top: 15px;
+    /* padding-left: 40px; */
+    padding-top: 5px;
     margin-top: -100px;
     padding-right: 35px;
     font-weight: 500;
+    font-size: 15px;
 }
 
 /* --------------------------------------------------Class XYZ css--------------------------------- */
 
-.xyz{
+.xyz {
     display: flex;
 }
 
 /* --------------------------------------------------All Enquite now box css----------------------- */
 
-.enquirenow{
-    width: 150px;
-    height: 55px;
+.enquirenow {
+    width: 130px;
+    height: 45px;
     background-color: white;
     border: 1px solid black;
     border-radius: 10px;
     text-align: center;
     padding-top: 10px;
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 550;
+    margin-top: -10px;
 }
 
 /* --------------------------------------------------All Download brochure box css------------------ */
 
-.downloadbrochuer{
-    width: 150px;
-    height: 75px;
+.downloadbrochuer {
+    width: 130px;
+    height: 55px;
     background-color: rgb(30, 30, 83);
     text-align: center;
-    padding-top: 10px;
-    font-size: 18px;
+    padding-top: 4px;
+    font-size: 16px;
     margin-left: 40px;
     border-radius: 5px;
     font-weight: 550;
     color: white;
+    margin-top: -15px;
 }
 
 /* --------------------------------------------------All box1 image css------------------------- */
 
-#box1img{
+#box1img {
     border-radius: 20px 20px 0px 0px;
 }
 
 /* --------------------------------------------------Class forth css------------------------- */
 
-.forth{
+.forth {
     display: flex;
-    width: 85%;
+    width: 90%;
     height: 100%;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 40px;
-    margin-left: 120px;
+    margin-left: 5%;    
     margin-bottom: 20px;
 }
 
 /* --------------------------------------------------Class fifth css------------------------------ */
 
-.fifth{
+.fifth {
     display: flex;
-    width: 85%;
+    width: 90%;
     height: 100%;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 40px;
-    margin-left: 120px;
+    margin-left: 5%;
     margin-bottom: 20px;
 }
 
 /* --------------------------------------------------Class fifth css------------------------------ */
 
-.sixth{
+.sixth {
     display: flex;
-    width: 85%;
+    width: 90%;
     height: 100%;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 40px;
-    margin-left: 120px;
+    margin-left: 5%;
     margin-bottom: 20px;
 }
 
 /* --------------------------------------------------Class Seventh css--------------------------- */
 
-.seventh{
+.seventh {
     display: flex;
-    width: 85%;
+    width: 90%;
     height: 100%;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 40px;
-    margin-left: 120px;
+    margin-left: 5%;
     margin-bottom: 20px;
 }
 
 /* --------------------------------------------------Class eight css--------------------------- */
 
-.eight{
+.eight {
     display: flex;
-    width: 85%;
+    width: 90%;
     height: 100%;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 40px;
-    margin-left: 120px;
+    margin-left: 5%;
     margin-bottom: 20px;
 }
 
 /* --------------------------------------------------Class nineth css--------------------------- */
 
-.nineth{
+.nineth {
     width: 100%;
     height: 480px;
     background-color: rgb(254, 238, 253);
@@ -344,7 +361,7 @@ button{
 
 /* --------------------------------------------------Class nineth enquire box css-------------- */
 
-.enquire-box{
+.enquire-box {
     width: 150px;
     height: 50px;
     background-color: rgb(23, 23, 48);
@@ -359,7 +376,7 @@ button{
 
 /* --------------------------------------------------Class tenth css--------------------------- */
 
-.tenth{
+.tenth {
     width: 100%;
     height: 500px;
     background-color: white;
@@ -371,12 +388,12 @@ button{
     width: 90%;
     margin: 40px auto;
 }
-  
+
 .accordion-item {
     margin-bottom: 10px;
     border-bottom: 1px solid white;
 }
-  
+
 .accordion-header {
     padding: 10px;
     background-color: white;
@@ -385,11 +402,11 @@ button{
     font-size: 22px;
     font-weight: 700;
 }
-  
+
 .accordion-header:hover {
     background-color: white;
 }
-  
+
 .accordion-content {
     padding: 20px;
     display: none;
@@ -397,15 +414,15 @@ button{
     font-size: 18px;
     overflow: hidden;
 }
-  
+
 .accordion-content.active {
     display: block;
-    
+
 }
 
 /* --------------------------------------------------Class eleven CSS-------------------------------- */
 
-.eleven{
+.eleven {
     display: flex;
     width: 100%;
     height: 342px;
@@ -413,19 +430,19 @@ button{
     color: white;
 }
 
-.elevenleft{
+.elevenleft {
     float: left;
     padding-left: 80px;
     padding-top: 60px;
 }
 
-.elevenright{
+.elevenright {
     float: right;
     right: 0px;
     position: absolute;
 }
 
-.ebox{
+.ebox {
     width: 160px;
     height: 50px;
     background-color: white;
@@ -439,24 +456,27 @@ button{
 
 /* --------------------------------------------------Footer CSS-------------------------------- */
 
-.footer{
+.footer {
     display: flex;
     padding-top: 100px;
     padding-left: 50px;
     justify-content: space-evenly;
 }
-.fbox1{
+
+.fbox1 {
     width: 400px;
     height: 250px;
 }
-.fbox2{
+
+.fbox2 {
     width: 400px;
     height: 250px;
     line-height: 8px;
     font-size: 18px;
     padding-top: 20px;
 }
-.fbox3{
+
+.fbox3 {
     width: 400px;
     height: 250px;
     padding-top: 10px;
@@ -467,7 +487,7 @@ button{
 
 /* --------------------------------------------------Model Css------------------------------------ */
 
-.modal-title{
+.modal-title {
     margin-left: -220px;
 }
 
@@ -485,27 +505,31 @@ button{
     background-color: #000;
 }
 
-.modal-content{
-    width: 600px;
+.modal-header{
+    height: 70px;
+}
+
+.modal-content {
+    width: 550px;
     /* height: 600px; */
     background-color: white;
-    margin-left: -100px;
+    margin-left: -40px;
 }
 
-.btn{
+.btn {
     background: none;
     border: none;
     outline: 0;
 }
 
-.btn:hover{
+.btn:hover {
     background: none;
     border: none;
     outline: 0;
 }
 
-#model-input{
-    width: 550px;
+#model-input {
+    width: 515px;
     height: 45px;
     margin-top: 10px;
     border-radius: 10px;
@@ -513,13 +537,14 @@ button{
 }
 
 .modal-body {
+    height: 420px;
     position: relative;
     flex: none;
     background-color: #ebf6ff;
 }
 
-select{
-    width: 550px;
+select {
+    width: 515px;
     height: 45px;
     margin-top: 10px;
     border-radius: 10px;
@@ -527,17 +552,17 @@ select{
     border: 2px solid black;
 }
 
-select:hover{
+select:hover {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     border: 2px solid red;
 }
 
-#model-input:hover{
+#model-input:hover {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     border: 2px solid red;
 }
 
-.chatbox{
+.chatbox {
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -551,7 +576,7 @@ select:hover{
     font-size: 26px;
 }
 
-#chat{
+#chat {
     outline: 0;
     border: none;
     background: none;
